@@ -3,9 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>SAMTECH-VIDEOS-AGENT</title>
 
-  <meta name="description" content="SAMTECH-VIDEOS-AGENT is a TikTok automation, analytics, and content management tool built with n8n." />
+  <meta
+    name="description"
+    content="SAMTECH-VIDEOS-AGENT is a TikTok automation, analytics, and content management tool built with n8n."
+  />
 
   <style>
     body {
@@ -16,6 +20,7 @@
       padding: 0;
     }
 
+    /* ===== HEADER / BANNER ===== */
     header {
       background-color: #0f172a;
       color: #ffffff;
@@ -23,14 +28,31 @@
       text-align: center;
     }
 
+    .logo {
+      max-width: 140px;
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      margin: 10px 0;
+      font-size: 32px;
+    }
+
+    header p {
+      font-size: 16px;
+      opacity: 0.9;
+    }
+
+    /* ===== MAIN CONTENT ===== */
     main {
       max-width: 900px;
       margin: 40px auto;
       padding: 0 20px;
     }
 
-    h1, h2 {
+    h2 {
       color: #0f172a;
+      margin-top: 40px;
     }
 
     p {
@@ -42,6 +64,7 @@
       margin-left: 20px;
     }
 
+    /* ===== FOOTER ===== */
     footer {
       background-color: #e5e7eb;
       padding: 20px;
@@ -50,7 +73,7 @@
     }
 
     footer a {
-      margin: 0 10px;
+      margin: 0 12px;
       color: #0f172a;
       text-decoration: none;
       font-weight: bold;
@@ -64,7 +87,13 @@
 
 <body>
 
+  <!-- ===== BANNER WITH LOGO ===== -->
   <header>
+    <img
+      src="/logo.jpg"
+      alt="SAMTECH-VIDEOS-AGENT Logo"
+      class="logo"
+    />
     <h1>SAMTECH-VIDEOS-AGENT</h1>
     <p>TikTok Analytics, Automation & Content Management Tool</p>
   </header>
@@ -72,13 +101,15 @@
   <main>
     <h2>About the Application</h2>
     <p>
-      <strong>SAMTECH-VIDEOS-AGENT</strong> is a workflow automation and analytics application
-      built using <strong>n8n</strong> that integrates with the <strong>TikTok API</strong>.
+      <strong>SAMTECH-VIDEOS-AGENT</strong> is a workflow automation and analytics
+      application built using <strong>n8n</strong> that integrates with the
+      <strong>TikTok API</strong>.
     </p>
 
     <p>
       The application allows users to securely connect their TikTok account via
-      <strong>OAuth authentication</strong> in order to manage TikTok-related data and workflows.
+      <strong>OAuth authentication</strong> to automate workflows and manage
+      TikTok-related data.
     </p>
 
     <h2>Main Features</h2>
@@ -91,29 +122,27 @@
 
     <h2>Data Usage & Compliance</h2>
     <p>
-      SAMTECH-VIDEOS-AGENT only accesses TikTok data that is explicitly authorized
-      by the user through TikTok OAuth.
+      SAMTECH-VIDEOS-AGENT only accesses TikTok data explicitly authorized by
+      the user through TikTok OAuth.
     </p>
 
     <p>
-      The application does not collect TikTok passwords, does not sell user data,
-      and operates in compliance with TikTok Developer Terms and API Usage Policies.
+      The application does not collect passwords, does not sell user data,
+      and operates in compliance with TikTok Developer and API Usage Policies.
     </p>
 
     <h2>Contact</h2>
     <p>
-      For any questions or requests regarding the application or data usage,
-      please contact us at:
+      For any questions regarding the application or data usage, contact:
       <br />
       <strong>Email:</strong> samtech00223@gmail.com
     </p>
   </main>
 
   <footer>
+   
     <a href="/privacy-policy.html">Privacy Policy</a>
     <a href="/terms-of-service.html">Terms of Service</a>
-
-    
   </footer>
 
 </body>
